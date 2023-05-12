@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    height: 5rem;
+    margin-bottom: 5em;
+}
+div{
+   /* border: 1px solid black;*/
+}
+.logo{
+    margin-left: 8%;
+    margin-right: 10%;
+}
+.imglogo{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+/* ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: white;
+}
+li{
+  float: left;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 25px 40px 15px 40px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.navbar {
+    overflow: hidden;
+    background-color:white;
+    margin: 0%;
+    padding: 0%;
+    width: 40%;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 12px;  
+    border: none;
+    outline: none;
+    color: rgb(201, 193, 193);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin-left: 0%;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ .btn-success{
+  background-color: rgba(62, 6, 166, 0.5);
+  width: 9em;
+  height: 2.7em;
+  border-radius: 12px;
+  color: white;
+  font-size: 0.8em;
+  align-items: center;
+ 
+ }
+.bquote{
+    margin-left: 15%;
+    margin-top: 1%;
+}
+.quote{
+    background-color: rgba(31, 17, 156, 0.5);
+    width: 9em;
+    height: 2.5em;
+    border-radius: 12px;
+    color: white;
+    font-size: x-small;
+    margin-top: 20%;
+}
+.contenedor1{
+   display: flex;
+   border: 1px solid black;
+   height: 25rem;
+   margin-left: 5%;
+   margin-bottom: 5em;
+}
+h1{
+    font-family: 'Nunito';
+    font-size: 3rem;
+}
+.conten1Left{
+    margin-left: 5%;
+    flex-basis: 50%;
+}
+.underbar{
+    display: flex;
+    margin-top: 3em;
+}
+.unb{
+  flex-basis: 30%;
+}
+p{
+  color: rgb(201, 193, 193);
+}
+.conten1Right{
+  margin-left: 15%;
+}
+.foto1{
+    border-radius: 12px;
+    object-fit: cover;
+    width: 80%;
+    height: 100%;
+    
+}
+.contenedor2{
+    display: flex;
+    margin-bottom: 5em;
+}
+.conten2Left{
+    flex-basis: 50%;
+    margin-left: 9%;
+    padding-left: 0.7em;
+}
+.contenmedio{
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 5em;
+}
+.lorenmedio{
+  padding-right: 5em;
+  padding-left: 5em;
+}
+.f1{
+    width: 15rem;
+    height: 15rem;
+    margin-left: 5%;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.icoubicacion{
+    display: flex;
+    
+}
+.icoub{
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.8em;
+}
+.footer{
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 10%;
+    margin-bottom: 10rem;
+}
+.lorenfinal{
+  padding-top: 0.5em;
+}
+.btnsee{
+  margin-left: 100%;
+  width: 9em;
+  height: 3em;
+  color: grey;
+  background-color: white;
+  border-radius: 14px;
+}
