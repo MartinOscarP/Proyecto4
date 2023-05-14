@@ -1,0 +1,43 @@
+.page2{
+    display: flex;
+    background-color: rgb(250, 251, 252);
+}
+div{
+    border: 1px solid black;
+}
+.p2inicioleft{
+    margin-left: 15%;
+    margin-bottom: 5rem;
+}
+.otrotitulo{
+    display: flex;
+}
+.imgvision{
+    width: 30em;
+    height: 20em;
+    border-radius: 12px;
+}
+.lp1{
+    padding-right: 50%;
+}
+.p21{
+    margin-left: 10%;
+    margin-bottom: 5rem;
+}
+.p22{
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 2rem;
+}
+.dot{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    justify-content: center;
+}
+.pdot{
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+}
