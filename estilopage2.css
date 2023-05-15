@@ -5,6 +5,7 @@
 .page2{
     display: flex;
     background-color: rgb(250, 251, 252);
+    margin-bottom: 3%;
 }
 .p2inicioleft{
     margin-left: 15%;
@@ -25,6 +26,16 @@
     margin-left: 10%;
     margin-bottom: 5rem;
 }
+.otro1{
+    width: 60%;
+    padding-right: 16%
+}
+.otro2{
+    padding-left: 5%;
+}
+.potro2{
+    padding-right: 8em;
+}
 .p22{
     display: flex;
     margin-left: 5%;
@@ -42,6 +53,12 @@
     padding-top: 10%;
     color: white;
     font-size: 1.5em;
+}
+
+.btnsee{
+    color: rgb(182, 188, 189);
+    border: 1px solid rgb(36, 36, 36);
+    
 }
 .page3{
     display: flex;
@@ -98,7 +115,7 @@
     display: flex;
     margin-left: 9%;
     margin-right: 10%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
     flex-basis: 50%;
 }
 .titulosfinales{
@@ -126,6 +143,7 @@
     display: flex;
     width: 100%;
     height: 11em;
+    
 }
 .ffinal{
     margin-right: 5%;
@@ -133,6 +151,8 @@
 }
 .footerfinal{
     display: flex;
+    background-color: rgb(250, 251, 252);
+    padding-top: 2em;
 }
 .divfooterfinal{
     width: 30%;
@@ -142,11 +162,16 @@
 
 }
 .imglogof{
-    object-fit: cover;
-    width: 50%;
-    height: 50%;
+    padding: 0;
+    width: 35%;
+    height: 35%;
+    background-color: rgb(250, 251, 252);
 }
 .lifinal{
     list-style-type: none;
     color: black;
+
+}
+.mai{
+    border-radius: 12px;
 }

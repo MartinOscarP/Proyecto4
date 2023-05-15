@@ -5,8 +5,13 @@
 
 header{
     display: flex;
-    height: 5rem;
-    margin-bottom: 5em;
+    height: 5em;
+    margin-bottom: 5%;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
 }
 .logo{
     margin-left: 8%;
@@ -98,14 +103,24 @@ li a{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  .form-control[type=text]{
+    background-image: url(Imagenes/search.svg);
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    font-size: 12px;
+    background-color:  #EEEE;
+    background-position: 10px 10px; 
+    padding: 12px 20px 12px 40px;
+  }
  .btn-success{
   background-color: rgba(62, 6, 166, 0.5);
   width: 9em;
-  height: 2.7em;
+  height: 3.5em;
   border-radius: 12px;
   color: white;
   font-size: 0.8em;
   align-items: center;
+  border: transparent;
  
  }
 .bquote{
@@ -126,6 +141,7 @@ li a{
    height: 25rem;
    margin-left: 5%;
    margin-bottom: 5em;
+   margin-top: 10%;
 }
 h1{
     font-family: 'Nunito';
@@ -143,7 +159,7 @@ h1{
   flex-basis: 30%;
 }
 p{
-  color: rgb(201, 193, 193);
+  color: rgb(188, 184, 184);
 }
 .conten1Right{
   margin-left: 15%;
