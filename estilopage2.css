@@ -37,7 +37,76 @@ div{
     justify-content: center;
 }
 .pdot{
-    justify-content: center;
+    padding-left: 30%;
+    padding-top: 10%;
     color: white;
     font-size: 1.5em;
+}
+.page3{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.p31{
+    margin-right: 10%;
+}
+.dtilde{
+    display: flex;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 12px;
+}
+.tilde{
+    width: 2em;
+    height: 2em;
+    margin-right: 3%;
+}
+.p32{
+    margin-right: 10%;
+    margin-left: 3%;
+    border-radius: 12px;
+}
+.home{
+    width: 30em;
+    height: 32em;
+    border-radius: 12px;
+}
+.what{
+    display: flex;
+    margin-left: 9%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+.comentario{
+    display: flex;
+    margin-left: 9%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+.personas{
+    display: flex;
+}
+.imgpersonas{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+}
+.familyHome{
+    display: flex;
+    margin-left: 9%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+.titulosfinales{
+    margin-left: 5%;
+}
+.fhome{
+    width: 90%;
+    height: 30em;
+}
+.fotofinales{
+    display: flex;
+    width: 90%;
+    height: 15em;
 }
