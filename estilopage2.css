@@ -153,6 +153,7 @@
     display: flex;
     background-color: rgb(250, 251, 252);
     padding-top: 2em;
+    height: 20em;
 }
 .divfooterfinal{
     width: 30%;
@@ -170,8 +171,25 @@
 .lifinal{
     list-style-type: none;
     color: black;
-
 }
-.mai{
-    border-radius: 12px;
+
+.mail{
+    border-radius: 14px;
+    width: 60%;
+    margin-bottom: 2%;
+    height: 2.5em;
+    color: rgb(179, 176, 176);
+    font-size: small;
+    padding-left: 3%;
+    border: 0.5px solid black;
+}
+.bmail{
+    background-color: transparent;
+    border-radius: 14px;
+    width: 60%;
+    height: 2.5em;
+    background-color:  rgb(52, 52, 186);
+    color: white;
+    border: none;
+    font-size: small;
 }
