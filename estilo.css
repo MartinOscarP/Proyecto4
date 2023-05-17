@@ -163,6 +163,7 @@ h1{
 }
 p{
   color: rgb(188, 184, 184);
+  font-size: 0.9em;
 }
 .conten1Right{
   margin-left: 15%;
@@ -197,15 +198,22 @@ p{
     height: 15rem;
     margin-left: 5%;
 }
+.f1:hover{
+  /*transform: rotate(10deg);*/
+}
 img{
     object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 12px;
 }
+.f1img:hover{
+   width: 105%;
+    height: 105%;
+    border-radius: 12px;
+}
 .icoubicacion{
     display: flex;
-    
 }
 .icoub{
     width: 1.5em;
