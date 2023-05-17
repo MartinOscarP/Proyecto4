@@ -113,10 +113,10 @@ li a{
     padding: 12px 20px 12px 40px;
   }
  .btn-success{
-  background-color: rgba(62, 6, 166, 0.5);
+  background-color:  rgb(52, 52, 186);
   width: 9em;
   height: 3.5em;
-  border-radius: 12px;
+  border-radius: 18px;
   color: white;
   font-size: 0.8em;
   align-items: center;
@@ -128,16 +128,17 @@ li a{
     margin-top: 1%;
 }
 .quote{
-    background-color: rgba(31, 17, 156, 0.5);
+    background-color:  rgb(52, 52, 186);
     width: 9em;
     height: 2.5em;
-    border-radius: 12px;
+    border-radius: 18px;
     color: white;
     font-size: x-small;
     margin-top: 20%;
+    border: none;
 }
-.quote:hover{
-  background-color: rgb(158, 14, 214);
+.quote:hover ,.btn-success:hover{
+  background-color:  rgb(109, 109, 226);
 }
 .contenedor1{
    display: flex;
@@ -193,13 +194,38 @@ p{
   padding-right: 5em;
   padding-left: 5em;
 }
-.f1{
-    width: 15rem;
+.f1{  
+    background-image: url(Imagenes/foto1.png);
+}
+.f2{
+  background-image: url(Imagenes/foto2.png);
+}
+.f3{
+  background-image: url(Imagenes/foto3.png);
+}
+.f4{
+  background-image: url(Imagenes/foto4.png);
+}
+   
+.f1, .f2, .f3, .f4{
+  width: 15rem;
     height: 15rem;
     margin-left: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
 }
-.f1:hover{
-  /*transform: rotate(10deg);*/
+.precio1{
+  margin-bottom: 80%;
+  width: 6em;
+  height: 2em;
+  margin-left: 5%;
+  margin-top: 10%;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  background-color: black;
+  border-radius: 18px;
 }
 img{
     object-fit: cover;
@@ -207,10 +233,10 @@ img{
     height: 100%;
     border-radius: 12px;
 }
-.f1img:hover{
-   width: 105%;
-    height: 105%;
-    border-radius: 12px;
+.f1:hover ,.f2:hover ,.f3:hover ,.f4:hover{
+   width: 20%;
+   height: 10%;
+   color: white;
 }
 .icoubicacion{
     display: flex;
@@ -236,4 +262,8 @@ img{
   color: grey;
   background-color: white;
   border-radius: 14px;
+}
+.btnsee:hover{
+  background-color: black;
+  color: white;
 }

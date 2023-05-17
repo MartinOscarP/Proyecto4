@@ -41,12 +41,21 @@
     margin-left: 5%;
     margin-bottom: 2rem;
 }
+.f5{
+    width: 15rem;
+    height: 5rem;
+    margin-left: 5%;
+    border-radius: 12px;
+
+}
 .dot{
     height: 50px;
     width: 50px;
     background-color: black;
     border-radius: 50%;
     justify-content: center;
+    border: 1px solid black;
+    box-shadow: -5px -10px rgb(179, 176, 176);
 }
 .pdot{
     padding-left: 30%;
@@ -158,13 +167,13 @@
 }
 .bnow{
     margin-bottom: 2em;
-    border-radius: 16px;
+    border-radius: 18px;
     font-size: small;
     color: white;
     background-color: rgb(52, 52, 186);
     width: 12em;
     height: 3em;
-   border-color: transparent;
+    border-color: transparent;
 }
 .fotofinales{
     display: flex;
@@ -227,4 +236,8 @@ li a{
     color: white;
     border: none;
     font-size: small;
+}
+.bmail:hover ,.bnow:hover{
+    transform: rotate(2deg);
+    background-color:  rgb(109, 109, 226);
 }
